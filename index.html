@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon" />
+    <title>Decodificador de Texto</title>
+  </head>
+  <body>
+    <header class="titulos">
+      <img id="one" src="./images-PhotoRoom.png-PhotoRoom.png" alt="logo" />
+      <h2>
+        Decodificador de Texto
+
+        <img
+          id="tec"
+          src="./technology_safety_internet_privacy_protection_secure_security_icon_231785.ico"
+          alt="icon"
+        />
+      </h2>
+    </header>
+
+    <main>
+      <section class="codificador1">
+        <div class="codificador_flilho">
+          <!-- parte 1 do decodificador -->
+          <label id="label1" for="primeira_label">Insira o texto:</label>
+          <img id="img2" src="./Computer_PC_Monitor_1907.png" alt="" />
+          <br />
+          <textarea id="inputTexto" rows="25" cols="50"></textarea><br />
+          <button id="bt1" onclick="decodeText()">criptografar</button><br />
+        </div>
+      </section>
+      <section class="divisao">
+        <img id="open" src="./aberto.PNG" alt="image de fundo " /><br />
+        <label id="texto__criptografado" for="criptografado"
+          >Texto criptografado:</label
+        >
+        <img id="chavinha" src="./crip.png" alt="image de chave" />
+        <br />
+        <textarea id="criptografado" rows="14" cols="50" readonly> </textarea>
+      </section>
+
+      <section class="codificador2">
+        <div class="codificador_flilho">
+          <!-- parte 2 do decodificador -->
+          <label id="ultimalabel" for="ultima_label"
+            >Texto Descriptografado:</label
+          >
+          <img id="img1" src="./Computer_PC_Monitor_1907.png" alt="" />
+          <br />
+
+          <textarea id="descripto" rows="25" cols="50" readonly> </textarea
+          ><br />
+          <button id="descri" onclick="descriptografar()">descriptografar</button>
+          <button id="copy" onclick="copy()">Copiar texto</button>
+        </div>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>

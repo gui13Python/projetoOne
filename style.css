@@ -1,0 +1,173 @@
+* {
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+html {
+  background-color: #dbd9e5;
+}
+
+main {
+  display: flex;
+  background-color: #dbd9e5;
+  margin-left: 2%;
+  padding-left: 15%;
+}
+
+.codificador1 {
+  background-color: black;
+  padding: 2%;
+  margin: 10% 1%;
+  color: rgb(242, 141, 9);
+  background-color: #dbd9e5;
+}
+
+.codificador2 {
+  background-color: black;
+  padding: 2%;
+  margin: 10% 1%;
+  color: rgb(242, 141, 9);
+  background-color: #dbd9e5;
+}
+
+.divisao {
+  border: 2px solid #dbd9e5;
+  padding: 6% 0%;
+}
+
+#img1 {
+  width: 20px;
+}
+#img2 {
+  width: 20px;
+}
+
+#bt__copiar {
+  padding: 1%;
+}
+
+button {
+  padding: 1%;
+  color: rgb(242, 141, 9);
+}
+
+#teexto__criptografado {
+  color: rgb(242, 141, 9);
+}
+
+#chavinha {
+  width: 30px;
+  height: 30px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.titulos h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#tec {
+  width: 30px;
+}
+
+h2 {
+  color: rgb(242, 141, 9);
+}
+
+#one {
+  display: flex;
+  justify-content: flex-start;
+  width: 160px;
+  padding: 1%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 470px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #inputTexto {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(231, 230, 233);
+  }
+}
+@media screen and (max-width: 470px) {
+  #criptografado {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(202, 202, 14);
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 470px) {
+  #descripto {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(14, 86, 202);
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #label1 {
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+    color: blue;
+  }
+}
+@media screen and (max-width: 470px) {
+  #texto__criptografado {
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+    color: blue;
+  }
+}
+@media screen and (max-width: 470px) {
+  #ultimalabel {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0% 0% 0%;
+    color: blue;
+  }
+}
+@media screen and (max-width: 470px) {
+  #open {
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  button {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    width: 145px;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 470px) {
+  #descri {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-left: 4px;
+    width: 140px;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(17, 92, 8);
+  }
+}
