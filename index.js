@@ -1,10 +1,21 @@
+// diz ao usuario oque fazer !
+function verifica() {
+  let verificaTextarea = document.getElementById("inputTexto").value;
+
+  if (verificaTextarea.trim() == "") {
+    alert("a caixa esta vazia digite seu texto! ");
+  } else {
+    console.log("tem texto");
+  }
+}
+
+verifica();
+
 let imgatual = "./aberto.PNG";
 
 function cadeadofexado() {
   document.getElementById("open").src = "./fexado.PNG";
 }
-
-
 
 let imgatual2 = ".fexado.PNG";
 
@@ -33,8 +44,7 @@ function descriptografar() {
   var output = reverseText(input);
   document.getElementById("descripto").value = output;
   document.getElementById("criptografado").value = "";
-  abindocadeado()
-  
+  abindocadeado();
 }
 
 // funcao para copiar o texto descriptogragrado e remover o txto do textarea
@@ -45,6 +55,6 @@ function copy() {
   copytext.select();
   copytext.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copytext.value);
-  alert("Copied the text: " + copytext.value);
+  alert("Texto copiado com sucesso!: " + copytext.value);
   document.getElementById("descripto").value = "";
 }
