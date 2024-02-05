@@ -14,10 +14,10 @@ function verifica() {
 let imgatual = "./aberto2.PNG";
 
 function cadeadofexado() {
-  document.getElementById("open").src = "./fexado2.PNG";
+  document.getElementById("open").src = "./fexado2.png";
 }
 
-let imgatual2 = ".fexado.PNG";
+let imgatual2 = "./fexado2.png";
 
 function abindocadeado() {
   document.getElementById("open").src = "./aberto2.PNG";
