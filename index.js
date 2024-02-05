@@ -11,7 +11,7 @@ function verifica() {
 
 // verifica();
 
-let imgatual = "./aberto.PNG";
+let imgatual = "./aberto2.PNG";
 
 function cadeadofexado() {
   document.getElementById("open").src = "./fexado2.PNG";
