@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
 * {
   padding: 0%;
   box-sizing: border-box;
@@ -5,35 +7,152 @@
 }
 
 html {
-  background-color: #dbd9e5;
+  background-color: #020101;
+  background-image: url("https://areadev.com.br/wp-content/uploads/2022/10/JAVASCRIPT.png");
+  background-size: cover;
+}
+
+.titulos {
+  background-image: url("https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/dibk1ba07iflqhldupuz");
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+header .link {
+  padding-left: 86%;
+
+  margin-bottom: 5px;
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/4509268-icone-de-seguranca-comunicacao-e-criptografia-vetor.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 86%;
+  background-color: rgba(39, 37, 76, 0.906);
+  margin-right: 18px;
+  margin-left: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  background-color: rgb(35, 35, 35);
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link a {
+  color: #060606;
+  text-decoration: none;
+  border: 1px solid yellow;
+  background-color: #f6e607;
+  border-radius: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.link #crypto {
+  color: rgb(3, 3, 2);
+  display: flex;
+  align-items: end;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 72px;
+}
+
+header .link {
+  align-items: self-end;
+}
+
+#imgCripto {
+  width: 35px;
+  gap: 10px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  display: none;
+}
+
+#crypto {
+  cursor: pointer;
+  background-size: cover;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm8XyeG_5eDhR1FBF3qPdIHYNf6d0NV6DoWw5FHMA6cvZ6aunGFbOdcbp_yWkbctl_LmQ&usqp=CAU");
+  background-size: cover;
+}
+
+.link #crypto {
+  color: transparent;
+}
+
+#contato {
+  border-radius: 10%;
+  font-family: "Times New Roman", Times, serif;
+  gap: 2px;
+  padding: 10px;
+  margin-top: 5px;
+  color: rgb(60, 13, 203);
+}
+
+#linkdin {
+  width: 25px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  display: flex;
 }
 
 main {
   display: flex;
-  background-color: #dbd9e5;
-  margin-left: 2%;
-  padding-left: 15%;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #dbd9e5;
+  background-image: url("https://areadev.com.br/wp-content/uploads/2022/10/JAVASCRIPT.png");
+  background-size: cover;
+  margin-left: 15px;
+  justify-content: center;
+  align-items: center;
+}
+/* https://wpengine.com/wp-content/uploads/2021/07/jsheader.png */
+textarea {
+  /* border: none; */
+  border-color: #fcbd8d;
+  background-color: transparent;
+  color: rgb(15, 15, 15);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3%;
+  cursor: text;
+  border: 1px solid #f6e607;
+  text-align: center;
 }
 
 .codificador1 {
   background-color: black;
-  padding: 2%;
+  padding: 1%;
   margin: 10% 1%;
+
   color: rgb(242, 141, 9);
-  background-color: #dbd9e5;
+  background-image: url("https://velog.velcdn.com/images/sway3/post/2d5961da-b590-438a-bc08-e57df5be5696/image.jpeg");
+  border-radius: 3%;
 }
 
 .codificador2 {
   background-color: black;
-  padding: 2%;
+  padding: 1%;
   margin: 10% 1%;
-  color: rgb(242, 141, 9);
-  background-color: #dbd9e5;
+
+  background-image: url("https://velog.velcdn.com/images/sway3/post/2d5961da-b590-438a-bc08-e57df5be5696/image.jpeg");
+  border-radius: 3%;
 }
 
 .divisao {
-  border: 2px solid #dbd9e5;
+  border: none;
   padding: 6% 0%;
+}
+
+#open {
+  padding-left: 2%;
 }
 
 #img1 {
@@ -48,12 +167,30 @@ main {
 }
 
 button {
-  padding: 1%;
+  padding: 2%;
   color: rgb(242, 141, 9);
+  background-color: #000000;
+  border: 1px solid rgb(44, 43, 43);
+  cursor: pointer;
+}
+
+button :hover {
+  background-color: yellow;
 }
 
 #teexto__criptografado {
-  color: rgb(242, 141, 9);
+  color: rgb(15, 15, 15);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#label1 {
+  color: rgb(15, 15, 15);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ultimalabel {
+  color: rgb(15, 15, 15);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #chavinha {
@@ -66,14 +203,23 @@ button {
 .titulos h2 {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 #tec {
-  width: 30px;
+  width: 90px;
+  padding: 7px;
+  margin-bottom: 10px;
 }
 
 h2 {
-  color: rgb(242, 141, 9);
+  color: rgb(13, 13, 13);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto__criptografado {
+  color: rgb(16, 16, 16);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #one {
@@ -82,6 +228,46 @@ h2 {
   width: 160px;
   padding: 1%;
   border-radius: 50%;
+}
+
+#criptografado {
+  color: brown;
+  align-items: baseline;
+  align-items: center;
+}
+
+.rodape {
+  height: 250px;
+  background-color: rgb(25, 25, 42);
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+.rodape div {
+  background-color: rgb(26, 26, 42);
+  display: flex;
+  justify-content: end;
+  /* border: 1px solid orange; */
+  /* background-image: url("https://hermes.dio.me/articles/cover/1caddefa-9a2d-4d9e-aa3d-d71661d9af6d.jpg"); */
+  background-size: cover;
+  height: 200px;
+  align-items: center;
+  gap: 7%;
+  font-family: cursive;
+  color: rgb(246, 246, 196);
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+}
+
+.rodape img {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 42px;
+  align-items: end;
+  margin: 3px;
 }
 
 @media screen and (max-width: 470px) {
@@ -169,5 +355,104 @@ h2 {
     align-items: center;
     font-size: 18px;
     color: rgb(17, 92, 8);
+  }
+}
+@media screen and (max-width: 470px) {
+  h2 {
+    color: beige;
+    gap: 1px;
+    padding-top: 10%;
+    padding-left: 5%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 470px) {
+  header .link {
+    background-image: none;
+    padding-left: 5%;
+  }
+}
+@media screen and (max-width: 470px) {
+  #open {
+    margin-top: 0%;
+  }
+}
+@media screen and (max-width: 470px) {
+  #texto__criptografado {
+    color: #fca708;
+  }
+}
+@media screen and (max-width: 470px) {
+  #inputTexto {
+    background-color:rgb(248,220,60);
+    border: none;
+  }
+}
+@media screen and (max-width: 470px) {
+  .codificador1 {
+    background-color: rgb(252, 252, 247);
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .codificador2 {
+    background-color: rgb(252, 252, 247);
+    padding: 3%;
+  }
+}
+@media screen and (max-width: 470px) {
+  #descripto {
+     background-color:rgb(248,220,60);;
+  }
+}
+@media screen and (max-width: 470px) {
+  #bt1 {
+    background-color: rgb(38, 38, 36);
+    border-radius: 2%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .codificador_flilho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #descri {
+    padding: 10px;
+    gap: 20px;
+    color: #10fd08;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #criptografado {
+    padding: 10px;
+    gap: 20px;
+    color: #050506;
+    background-color:rgb(248,220,60);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .rodape {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #copy {
+    padding: 10px;
+    margin-bottom: 10px;
   }
 }

@@ -13,12 +13,18 @@
       <h2>
         Decodificador de Texto
 
-        <img
-          id="tec"
-          src="./technology_safety_internet_privacy_protection_secure_security_icon_231785.ico"
-          alt="icon"
-        />
+        <img id="tec" src="./js.png" alt="icon" />
       </h2>
+      <nav class="link">
+        <a id="crypto"href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_criptografia"target="_blank"> 
+        Oque é cryptografia?</a
+        >
+        <a id="contato"
+          href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+          target="_blank"> <img id="linkdin" src="./icon_rodape/linkedin_icon-icons.com_65929.ico" alt="image linkdin">
+          contato</a
+        >
+      </nav>
     </header>
 
     <main>
@@ -26,18 +32,18 @@
         <div class="codificador_flilho">
           <!-- parte 1 do decodificador -->
           <label id="label1" for="primeira_label">Insira o texto:</label>
-          <img id="img2" src="./Computer_PC_Monitor_1907.png" alt="" />
+          <img id="img2" src="./lapis.png" alt="" />
           <br />
-          <textarea id="inputTexto" rows="25" cols="50"></textarea><br />
-          <button id="bt1" onclick="decodeText()">criptografar</button><br />
+          <textarea id="inputTexto" rows="25" cols="53"></textarea><br />
+          <button id="bt1" onclick="encoderText()">criptografar</button><br />
         </div>
       </section>
       <section class="divisao">
-        <img id="open" src="./aberto.PNG" alt="image de fundo " /><br />
+        <img id="open" src="./aberto2.PNG" alt="image de fundo " /><br />
         <label id="texto__criptografado" for="criptografado"
           >Texto criptografado:</label
         >
-        <img id="chavinha" src="./crip.png" alt="image de chave" />
+        <img id="chavinha" src="./cadeado.png" alt="image de chave" />
         <br />
         <textarea id="criptografado" rows="14" cols="50" readonly> </textarea>
       </section>
@@ -48,16 +54,36 @@
           <label id="ultimalabel" for="ultima_label"
             >Texto Descriptografado:</label
           >
-          <img id="img1" src="./Computer_PC_Monitor_1907.png" alt="" />
+          <img id="img1" src="./lapis2.png" alt="" />
           <br />
 
-          <textarea id="descripto" rows="25" cols="50" readonly> </textarea
+          <textarea id="descripto" rows="25" cols="53" readonly> </textarea
           ><br />
-          <button id="descri" onclick="descriptografar()">descriptografar</button>
+          <button id="descri" onclick="decoderText()">descriptografar</button>
           <button id="copy" onclick="copy()">Copiar texto</button>
         </div>
       </section>
     </main>
+
+    <footer class="rodape">
+      <div class="rodape">
+        <img
+          src="./icon_rodape/css_original_wordmark_logo_icon_146576.ico"
+          alt="image css"
+        />
+        <img
+          src="./icon_rodape/html_original_wordmark_logo_icon_146478.ico"
+          alt=" image HTML"
+        />
+        <img
+          src="./icon_rodape/javascript_original_logo_icon_146455.ico"
+          alt="image javascript"
+        />
+      </div>
+      <div class="dev">
+        <p>Desenvolvido por Leandro COSTA</p>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="./index.js"></script>
   </body>

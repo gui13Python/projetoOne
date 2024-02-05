@@ -9,40 +9,39 @@ function verifica() {
   }
 }
 
-verifica();
+// verifica();
 
 let imgatual = "./aberto.PNG";
 
 function cadeadofexado() {
-  document.getElementById("open").src = "./fexado.PNG";
+  document.getElementById("open").src = "./fexado2.PNG";
 }
 
 let imgatual2 = ".fexado.PNG";
 
 function abindocadeado() {
-  document.getElementById("open").src = "./aberto.PNG";
+  document.getElementById("open").src = "./aberto2.PNG";
 }
 
 // criptografa o texto escrito
-function decodeText() {
-  var input = document.getElementById("inputTexto").value;
-  var output = reverseText(input);
-  document.getElementById("criptografado").value = output;
+function encoderText() {
+  let text0 = document.getElementById("inputTexto").value;
+  let Encoder = window.btoa(text0);
+
+  let text1 = (document.getElementById("criptografado").value = Encoder);
   document.getElementById("inputTexto").value = "";
   cadeadofexado();
 }
 
-// embaralha o texto
-function reverseText(text) {
-  return text.split("").reverse().join("");
-}
-
 // descriptografa o texto
 
-function descriptografar() {
-  var input = document.getElementById("criptografado").value;
-  var output = reverseText(input);
-  document.getElementById("descripto").value = output;
+function decoderText() {
+  let text2 = document.getElementById("criptografado").value;
+
+  text3 = window.atob(text2);
+
+  let text4 = (document.getElementById("descripto").value = text3);
+
   document.getElementById("criptografado").value = "";
   abindocadeado();
 }
