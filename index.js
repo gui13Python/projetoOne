@@ -11,7 +11,7 @@ function verifica() {
 
 // verifica();
 
-let imgatual = "./aberto2.PNG";
+let imgatual = "./aberto2.png";
 
 function cadeadofexado() {
   document.getElementById("open").src = "./fexado2.png";
@@ -20,7 +20,7 @@ function cadeadofexado() {
 let imgatual2 = "./fexado2.png";
 
 function abindocadeado() {
-  document.getElementById("open").src = "./aberto2.PNG";
+  document.getElementById("open").src = "./aberto2.png";
 }
 
 // criptografa o texto escrito
